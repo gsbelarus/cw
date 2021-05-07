@@ -1,0 +1,17 @@
+{
+  "name": "cw_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "convert": "node --max-old-space-size=6000 -- node_modules/ts-node/dist/bin -P tsconfig.json src/convert.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "node-fpgrowth": "^1.2.1"
+  }
+}
